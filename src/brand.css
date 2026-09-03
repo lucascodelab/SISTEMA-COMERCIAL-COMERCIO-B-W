@@ -1,0 +1,5 @@
+.brand img{width:44px;height:44px;object-fit:contain;filter:drop-shadow(0 2px 7px rgba(255,255,255,.12));transition:transform .18s ease}
+.brand:hover img{transform:scale(1.04)}
+.login-brand .brand img{width:96px;height:96px}
+.login-brand .brand strong{font-size:15px}
+.collapsed .brand img{width:36px;height:36px}
