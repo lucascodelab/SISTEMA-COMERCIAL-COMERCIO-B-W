@@ -1,0 +1,29 @@
+# Dependências e arquivos gerados pelo frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Arquivos gerados pelo Tauri/Rust
+src-tauri/target/
+src-tauri/gen/
+
+# Dados locais do sistema e backups
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.backup
+*.bak
+
+# Instaladores e pacotes de distribuição (publique em GitHub Releases)
+*.exe
+*.msi
+
+# Arquivos locais do sistema e variáveis de ambiente
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
